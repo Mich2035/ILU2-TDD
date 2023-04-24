@@ -22,6 +22,12 @@ import org.junit.jupiter.api.Test;
 	void EX3_test() {
 		assertEquals("HELLO, JERRY",Welcome.welcome("JERRY"));
 	}
-
+	
+	
+	@Test
+	void EX4_test() {
+		assertEquals("Hello, Amy, Bob",Welcome.welcome("amy,bob"));
+	}
+	
 
 }
