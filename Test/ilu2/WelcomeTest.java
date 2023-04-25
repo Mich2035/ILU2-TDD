@@ -36,11 +36,18 @@ import org.junit.jupiter.api.Test;
 	void EX6_test() {
 		assertEquals("Hello, Amy, Jerry. AND HELLO, BOB !",Welcome.welcome("Amy, BOB, Jerry"));
 	}
-	/*
+	
 	@Test
 	void EX7_test() {
-		assertEquals("Hello, bob and jerry.AND HELLO AMY AND JACK",Welcome.welcome("bob, AMY,jerry, JACK"));
+		assertEquals("Hello, Bob, Amy and jerry",Welcome.welcome("bob,amy,jerry"));
 	}
- */
+	/*
+	@Test
+	void EX8_test() {
+		assertEquals("Hello, Bob, Amy and jerry",Welcome.welcome("bob   ,amy,jerry"));
+	}
+	*/
+ 
+ 
 
 }
