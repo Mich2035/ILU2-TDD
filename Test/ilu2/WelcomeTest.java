@@ -41,12 +41,12 @@ import org.junit.jupiter.api.Test;
 	void EX7_test() {
 		assertEquals("Hello, Bob, Amy and jerry",Welcome.welcome("bob,amy,jerry"));
 	}
-	/*
+	
 	@Test
 	void EX8_test() {
 		assertEquals("Hello, Bob, Amy and jerry",Welcome.welcome("bob   ,amy,jerry"));
 	}
-	*/
+	
  
  
 

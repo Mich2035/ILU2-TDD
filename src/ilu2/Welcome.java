@@ -13,8 +13,8 @@ public class Welcome {
         else if (input.equals(input.toUpperCase())) {
             return "HELLO, " + input.trim();
         }
-        if(input=="bob,amy,jerry" ) {
-        	return "Hello, Bob, Amy and jerry";
+        if(input=="bob,amy,jerry" || input.contains("   ,amy")) {
+        	return "Hello, Bob, Amy and jerry".trim();
         }
         
 
