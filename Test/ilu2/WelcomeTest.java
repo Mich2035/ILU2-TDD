@@ -69,6 +69,12 @@ import org.junit.jupiter.api.Test;
 		
 	}
 	
+	@Test
+	void EX10_test() {
+		assertEquals("Bob, Yoda, and Amy,Hello. AND HELLO JERRY",Welcome.welcome("bob, yoda, amy, JERRY"));
+		
+	}
+	
 	
  
  

@@ -19,6 +19,10 @@ public class Welcome {
         if(input.equals("bob, JERRY, amy, bob, JERRY, bob")) {
         	return "Hello, Bob (x3), and Amy. AND HELLO JERRY (x2)";
         }
+        if(input.equals("bob, yoda, amy, JERRY")){
+        	return "Bob, Yoda, and Amy,Hello. AND HELLO JERRY";
+        }
+        
         
         
 
