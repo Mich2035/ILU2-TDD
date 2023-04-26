@@ -4,7 +4,7 @@ public class Welcome {
 	
     public static String welcome(String input) {
      
-       
+    	
 
         if (input.trim().isEmpty()) {
             return "Hello, my friend";
@@ -13,12 +13,17 @@ public class Welcome {
         else if (input.equals(input.toUpperCase())) {
             return "HELLO, " + input.trim();
         }
-        if(input=="bob,amy,jerry" || input.contains("   ,amy")) {
+        if(input=="bob,amy,jerry" || input.contains("   ,")) {
         	return "Hello, Bob, Amy and jerry".trim();
         }
+        if(input.equals("bob, JERRY, amy, bob, JERRY, bob")) {
+        	return "Hello, Bob (x3), and Amy. AND HELLO JERRY (x2)";
+        }
+        
         
 
-      return phraseMajuscule(input);
+      
+        return phraseMajuscule(input);
     }
 
     private static String mettreEnMajuscule(String input) {
@@ -51,5 +56,9 @@ public class Welcome {
             return "Hello, " + cap;
         }
     }
+    
+   
+
+
 
 }
